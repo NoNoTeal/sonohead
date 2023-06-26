@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "sonohead",
+  "version": "${version}",
+  "name": "Tablist Heads",
+  "description": "A mod for cracked Minecraft players to see player heads in the tablist.",
+  "authors": [
+    "xTeal"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "icon": "assets/sonohead/icon.png",
+  "environment": "client",
+  "entrypoints": {},
+  "mixins": [
+    "sonohead.mixins.json"
+  ],
+  "depends": {
+    "minecraft": "*"
+  }
+}
